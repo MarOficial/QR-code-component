@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+html{
+        margin: 0;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    
+}
+
+@media screen and (min-width: 551px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(0, 0%, 100%);
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        border-radius: 20px;
+        text-align: center;
+        width: 430px;
+        
+        
+    
+    
+    
+    }
+    .father{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+        margin: 50px;
+        
+        
+    }
+    .imgdiv{
+     
+        margin: 15px;
+        width: 400px;
+        
+        
+    }
+    .image{
+        width: 100%;
+        border-radius:20px;
+    
+    }
+    .txt1{font-size: 25px; font-family: 'Outfit', sans-serif; margin-left: 18px; margin-right: 18px; color: hsl(218, 44%, 22%);  }
+    .txt1  p{margin: 0;}
+    .txt2  p{margin: 0px; padding: 0px; color:hsl(220, 15%, 55%);}
+    .txt2{font-size: 15px; font-family: 'Outfit', sans-serif; margin: 20px; width: 250px;}
+  }
+
+
+@media screen and (max-width: 550px){
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-radius:20px;
+    text-align: center;
+    
+}
+.imgdiv{
+ 
+    margin: 15px;
+    
+    
+}
+.image{
+    width: 100%;
+    border-radius:20px;
+
+}
+.father{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    margin: 50px;
+    
+}
+.txt1{font-size: 25px; font-family: 'Outfit', sans-serif; margin-left: 18px; margin-right: 18px;}
+.txt1  p{margin: 0;}
+.txt2  p{margin: 0px; padding: 0px;}
+.txt2{font-size: 15px; font-family: 'Outfit', sans-serif; margin: 20px; width: 250px;}
+
+}
